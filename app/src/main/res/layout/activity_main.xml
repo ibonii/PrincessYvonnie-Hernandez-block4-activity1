@@ -8,44 +8,26 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="135dp"
-        android:layout_height="67dp"
+        android:layout_width="272dp"
+        android:layout_height="54dp"
         android:rotationX="4"
         android:rotationY="4"
-        android:text="Hello World!"
+        android:text="Welcome to the World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintHorizontal_bias="0.949"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024" />
+        app:layout_constraintVertical_bias="0.07" />
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="296dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="88dp"
-        android:layout_marginBottom="595dp"
+        android:layout_width="342dp"
+        android:layout_height="628dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <EditText
-        android:id="@+id/editTextDate2"
-        android:layout_width="258dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="40dp"
-        android:ems="10"
-        android:inputType="date"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="What is your name?"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="102dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
