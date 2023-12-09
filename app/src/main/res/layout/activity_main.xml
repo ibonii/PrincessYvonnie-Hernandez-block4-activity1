@@ -5,32 +5,36 @@
     android:id="@+id/newOne"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:rotationX="-13"
-    android:rotationY="3"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="167dp"
-        android:layout_height="57dp"
+        android:layout_width="117dp"
+        android:layout_height="37dp"
         android:rotationX="4"
         android:rotationY="4"
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.741"
+        app:layout_constraintHorizontal_bias="0.697"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.207" />
+        app:layout_constraintVertical_bias="0.311" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_recent_history"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="209dp" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="265dp"
-        android:layout_height="290dp"
-        android:rotation="-4"
-        android:rotationX="8"
-        android:rotationY="4"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="300dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="180dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
